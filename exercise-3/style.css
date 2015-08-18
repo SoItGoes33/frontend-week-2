@@ -72,3 +72,49 @@ CSS Selectors Cheatsheet: http://bit.ly/1g2Yk1k
 ********************************************************************************
 */
 
+#about {
+  border-color: green;
+}
+
+.highlight {
+  background: yellow;
+}
+
+#about p {
+  margin-left: 30 px;
+}
+
+blockquote {
+  background-image: url("http://bit.ly/1IlHeMx");
+}
+
+nav ul li {
+  font-color: blue;
+}
+
+img {
+  float: right;
+  margin: 20px;
+}
+
+.image-2 {
+  float: left;
+  margin: 20px;
+}
+
+p.clear {
+  clear: both;
+}
+
+a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+li:first-child {
+  text-decoration: underline;
+}
+
+#services li:nth-child(odd) {
+  background: gray;
+}
