@@ -42,5 +42,25 @@ html {
 *****************************************************************************
 */
 
-
-
+h1 {
+  margin: 60px;
+}
+img {
+  padding-right: 10px;
+}
+ul li {
+  display:inline;
+  margin-right:20px;
+}
+nav {
+  position:absolute;
+  background:white;
+  border-width: 1px;
+  border-style:solid;
+  border-color:gray;
+  width:100%;
+}
+body {
+  background: yellow;
+  background-image: url("http://ufatum.com/data_images/flower/flower1.jpg");
+}
