@@ -1,17 +1,43 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>Cool Form</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body class="container">
-    <h1> Best Form Ever</h1>
+<head>
+    <title>Our Form</title>
+</head>
+<body>
+    <h1>Mandatory Form</h1>
+    <form
+    action="http://requestb.in/11wlr8k1"
+    method="POST">
+<label>Name<br><input name="name" type="text" placeholder="your name here"></label><br>
+    <label>Email<br><input name="email" type="email"></label><br>
+<label>Password<br><input name="password" type="password"></label><br>
+<label>Password Confirm<br><input name="password_confirm" type="password"></label><br>
+<select multiple name="animal">
+    <option value="" disabled selected>Please Select An Animal<br></option>
+    <option value="ostrich">Ostrich</option><br>
+    <option value="penguin">Penguin</option><br>
+    <option value="jellyfish">Jellyfish</option><br>
+    <option value="platypus">Platypus</option><br>
+    <option value="orangutan">Orangutan</option>
+</select><br>
+<label>Please Introduce Yourself<input name="intro" type="textarea"></label><br>
+Choose a Color:<br>
+<label>
+    <input name="color" type="radio" value="blue" /> Blue </label><br>
+    <input name="color" type="radio" value="mauve" /> Mauve </label><br>
+    <input name="color" type="radio" value="steel" /> Steel </label><br>
+    <input name="color" type="radio" value="mint" /> Mint </label><br>
+    <input name="color" type="radio" value="flame" /> Flame </label><br>
+    Choose Your Favorite Food:<br>
+    <input name="food" type="checkbox" value="sushi" /> Sushi </label><br>
+    <input name="food" type="checkbox" value="curry" /> Curry </label><br>
+    <input name="food" type="checkbox" value="donut" /> Donut </label><br>
+    <input name="food" type="checkbox" value="toast" /> Toast with Butter </label><br>
+    <input name="food" type="checkbox" value="spaghetti" /> Spaghetti </label><br>
+<label>Pick a color for real!<br><input name="colorpicker" type="color"></label><br>
 
-    <!--
-
-      Form goes here!
-
-    -->
-
-  </body>
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</form>
+</body>
 </html>
